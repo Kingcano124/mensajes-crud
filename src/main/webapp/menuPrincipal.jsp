@@ -81,7 +81,7 @@
             <%
                 }
             %>
-            <div class="col-md-3">
+            <div class=" col-sm-6 col-lg-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><%=data.getAutor()%>
@@ -93,7 +93,7 @@
                         <div class="btn-funciones">
                             <a href="#" class="btn btn-danger card-link">Eliminar</a>
                             <a href="editar.jsp?id=<%=data.getId_mensaje()%>&mensaje=<%=data.getMensaje()%>&autor=<%=data.getAutor()%>"
-                               class="btn btn-primary card-link">Editar</a>
+                               class="btn btn-primary card-link btn-editar">Editar</a>
                         </div>
                     </div>
                 </div>

@@ -128,6 +128,7 @@
     opacity: 1;
 }
 
+
 .sidebar ul li .tooltip{
     position: absolute;
     left: 125px;
@@ -173,4 +174,22 @@
 
 .btn-funciones{
     display: flex;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .btn-funciones{
+        display: grid;
+    }
+
+    .btn-editar {
+        width: 100%;
+        margin: auto !important;
+        margin-top: 4px !important;
+    }
 }
