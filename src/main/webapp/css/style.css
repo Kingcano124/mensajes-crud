@@ -144,6 +144,8 @@
 
 .sidebar ul li:hover .tooltip{
     opacity: 1;
+    background: white;
+
 }
 
 .sidebar.active ul li .tooltip{
@@ -181,6 +183,14 @@
     padding: 0;
 }
 
+
+.ms {
+    display: flex;
+    align-items: center; /* Esto alinea verticalmente los elementos */
+}
+.ms .btn-open-modal {
+    margin-left: auto; /* Mueve el enlace a la derecha */
+}
 
 @media (min-width: 991px) and (max-width: 1199px) {
     .btn-funciones{
