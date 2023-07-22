@@ -80,8 +80,8 @@
                                 <h5 class="card-title"><%=data.getAutor()%></h5>
                                 <p class="card-text"><%=data.getMensaje()%></p>
                                 <p class="blockquote-footer"><cite><%=data.getFecha()%></cite></p>
-                                <a href="eliminar.jsp?id=<%=data.getId_mensaje()%>" class="btn btn-danger card-link">Eliminar</a>
-                                <a href="editar.jsp?id=<%=data.getId_mensaje()%>
+                                <a href="html/eliminar.jsp?id=<%=data.getId_mensaje()%>" class="btn btn-danger card-link">Eliminar</a>
+                                <a href="html/editar.jsp?id=<%=data.getId_mensaje()%>
                                 &&mensaje=<%=data.getMensaje()%>
                                 &&autor=<%=data.getAutor()%>"class="btn btn-primary card-link">Editar</a>
                             </div>

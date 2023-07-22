@@ -30,7 +30,7 @@
                             <input type="hidden" class="form-control" name="id" value="<%=request.getParameter("id")%>">
                         </div>
                         <div class="modal-footer">
-                            <a href="index.jsp" class="btn btn-primary">Regresar</a>
+                            <a href="../index.jsp" class="btn btn-primary">Regresar</a>
                             <button type="submit" name="aplicar" class="btn btn-primary">Guardar</button>
                         </div>
                     </form>

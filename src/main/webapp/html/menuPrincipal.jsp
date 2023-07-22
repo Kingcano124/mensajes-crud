@@ -127,7 +127,7 @@
                 <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form action="index.jsp" method="post" >
+                <form action="../index.jsp" method="post" >
                     <div class="mb-3">
                         <label class="form-label" >Mensaje</label>
                         <textarea type="text" class="form-control" name="mensaje"  placeholder="Ingrese un mensaje..." rows="3"></textarea>
